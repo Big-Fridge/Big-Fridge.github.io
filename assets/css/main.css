@@ -1267,6 +1267,22 @@ section,
   color: var(--accent-color);
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensures vertical alignment */
+  gap: 10px; /* Adjust spacing between icons if needed */
+}
+
+.social-links a img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-links a i {
+  font-size: 24px;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
